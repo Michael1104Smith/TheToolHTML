@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://localhost:53816/Default.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>The Tool</title>
+    <link type="text/css" href="css/build.css" rel="stylesheet">
+    <link type="text/css" href="css/treed.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body cz-shortcut-listen="true">
+    <form method="post" action="http://localhost:53816/Default.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="form1">
+        <div class="aspNetHidden">
+            <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+            <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+            <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEyNjM4NDU5NzNkZOwSON0K9ysz7+cfb6QZinbRi6QKNAMz3PUEa43obxYj">
+        </div>
+
+        <div class="aspNetHidden">
+
+            <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334">
+            <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAkCX4QIbph74kMIiaRQT2ec9IsGSDWWdLCBJDPiu8/QIKM6CWabl8ZKTlSSkWx8rh4GHrYxvYrs5XDlrjyz+wVUKHO2MM9E76FdpEwep9fL8qllCkje5nnoAG2sBF8Xow1MwOSPoaWpIlPAgdndkkb5d3D9o8STVX/I8aIxEPAmb3p6lyBM7l3cD0ijmDjF2IIIPMKFLQgRpshEjOtHbZ4GWVefgaOONrzGPUlfJqvqMQ==">
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <button type="button" id="btnAdd" style="float: left; margin: 20px 0 0 200px;" onclick="addNewArgument()">Add New Argument</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="editme" style="display: none">
+                    <div class="treed">
+                        <li class="treed__item treed__item--parent">
+                            <div class="treed__head">
+                                <div class="treed__collapser"></div>
+                                <div class="treed__default-node treed__body">
+                                    <div class="treed__text">
+                                        <p>Ban Assault Rifles|1|Argument|Assault rifles are not useful for personal defense or sport. They present a danger to the general community. They should not be legal to own or operate without special permission.|General introduction.|Wrap-up of the argument.|undefined</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="treed__children">
+                                <li class="treed__item treed__item--parent collapsed">
+                                    <div class="treed__head">
+                                        <div class="treed__collapser"></div>
+                                        <div class="treed__default-node treed__body">
+                                            <div class="treed__text">
+                                                <p>Premise 1|1|Premise|Premise 1 Description|undefined|undefined|0</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <ul class="treed__children"></ul>
+                                </li>
+                                <li class="treed__item treed__item--parent collapsed">
+                                    <div class="treed__head">
+                                        <div class="treed__collapser"></div>
+                                        <div class="treed__default-node treed__body">
+                                            <div class="treed__text">
+                                                <p>Premise 2|2|Premise|Premise 2 Description|undefined|undefined|0</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <ul class="treed__children"></ul>
+                                </li>
+                                <li class="treed__item treed__item--parent collapsed">
+                                    <div class="treed__head">
+                                        <div class="treed__collapser"></div>
+                                        <div class="treed__default-node treed__body">
+                                            <div class="treed__text">
+                                                <p>Premise 3|3|Premise|Premise 3 Description|undefined|undefined|0</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <ul class="treed__children"></ul>
+                                </li>
+                                <li class="treed__item treed__item--parent active">
+                                    <div class="treed__head">
+                                        <div class="treed__collapser"></div>
+                                        <div class="treed__default-node treed__body">
+                                            <div contenteditable="true" class="treed__input">Premise 5 SUBARG|7|Premise|Sub|undefined|undefined|1</div>
+                                        </div>
+                                    </div>
+                                    <ul class="treed__children">
+                                        <li class="treed__item">
+                                            <div class="treed__head">
+                                                <div class="treed__collapser"></div>
+                                                <div class="treed__default-node treed__body">
+                                                    <div class="treed__text">
+                                                        <p>yes?|54|Support|t|undefined|undefined|undefined</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <ul class="treed__children"></ul>
+                                        </li>
+                                        <li class="treed__item">
+                                            <div class="treed__head">
+                                                <div class="treed__collapser"></div>
+                                                <div class="treed__default-node treed__body">
+                                                    <div class="treed__text">
+                                                        <p>one more time|55|Support|one more|undefined|undefined|undefined</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <ul class="treed__children"></ul>
+                                        </li>
+                                        <li class="treed__item treed__item--parent collapsed">
+                                            <div class="treed__head">
+                                                <div class="treed__collapser"></div>
+                                                <div class="treed__default-node treed__body">
+                                                    <div class="treed__text">
+                                                        <p>NewSupp1b|8|Support|SupDesc1b|undefined|undefined|undefined</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <ul class="treed__children"></ul>
+                                        </li>
+                                        <li class="treed__item">
+                                            <div class="treed__head">
+                                                <div class="treed__collapser"></div>
+                                                <div class="treed__default-node treed__body">
+                                                    <div class="treed__text">
+                                                        <p>NewSupp2b|9|Support|SupDesc2b|undefined|undefined|undefined</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <ul class="treed__children"></ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="treed__item treed__item--parent collapsed">
+                                    <div class="treed__head">
+                                        <div class="treed__collapser"></div>
+                                        <div class="treed__default-node treed__body">
+                                            <div class="treed__text">
+                                                <p>Premise 4|4|Premise|Premise 4 Description|undefined|undefined|0</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <ul class="treed__children"></ul>
+                                </li>
+                                <li class="treed__item">
+                                    <div class="treed__head">
+                                        <div class="treed__collapser"></div>
+                                        <div class="treed__default-node treed__body">
+                                            <div class="treed__text">
+                                                <p>Premise 6|9|Premise|Test new premise|undefined|undefined|0</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <ul class="treed__children"></ul>
+                                </li>
+                                <li class="treed__item">
+                                    <div class="treed__head">
+                                        <div class="treed__collapser"></div>
+                                        <div class="treed__default-node treed__body">
+                                            <div class="treed__text">
+                                                <p>Premise 7 SUBARG|10|Premise|jf|undefined|undefined|1</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <ul class="treed__children"></ul>
+                                </li>
+                                <li class="treed__item">
+                                    <div class="treed__head">
+                                        <div class="treed__collapser"></div>
+                                        <div class="treed__default-node treed__body">
+                                            <div class="treed__text">
+                                                <p>Premise 8|11|Premise|P8|undefined|undefined|0</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <ul class="treed__children"></ul>
+                                </li>
+                                <li class="treed__item">
+                                    <div class="treed__head">
+                                        <div class="treed__collapser"></div>
+                                        <div class="treed__default-node treed__body">
+                                            <div class="treed__text">
+                                                <p>Premise 9|12|Premise|P9|undefined|undefined|0</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <ul class="treed__children"></ul>
+                                </li>
+                                <li class="treed__item">
+                                    <div class="treed__head">
+                                        <div class="treed__collapser"></div>
+                                        <div class="treed__default-node treed__body">
+                                            <div class="treed__text">
+                                                <p>Premise 10|13|Premise|P10|undefined|undefined|0</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <ul class="treed__children"></ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </div>
+                </div>
+                <!-- editme gets populated with a treeview from setup.js we should see if we can remove it from code if possible -->
+                <div id="charts">
+                    <div id="d3view0" class="d3view">
+                        <svg></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- Modal ModalDetails -->
+        <div class="modal modal-large NoBG modalDetails" id="modalDetails" tabindex="-1" role="dialog" data-backdrop="static" data-keyboard="true" aria-labelledby="modalDetailsLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content  tabindex=&#39;-1&#39;">
+
+                    <div class="modal-header">
+                        <h4 id="modalDetailsLabel" class="modal-title pull-left">Details</h4>
+                        <input type="submit" name="btnCloseDetails" value="X" id="btnCloseDetails" class="btnX pull-right" data-dismiss="modal" aria-hidden="true">
+                        <div class="Clr"></div>
+                    </div>
+                    <div class="modal-body ModalDetails">
+                        <br>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <span>Name: </span>
+                                <input name="txtName" type="text" value="one more time" maxlength="50" id="txtName">
+                                <span id="ctl06" class="error" style="display:inline-block;width:100%;display:none;"><br>Name is required.</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <span>Description: </span>
+                                <textarea name="txtDescription" rows="5" cols="20" id="txtDescription">one more</textarea>
+                                <span id="ctl08" class="error" style="display:inline-block;width:100%;display:none;"><br>Description is required.</span>
+                            </div>
+                        </div>
+                        <div class="row preamble">
+                            <div class="col-md-12">
+                                <span>Preamble: </span>
+                                <textarea name="txtPreamble" rows="5" cols="20" id="txtPreamble"></textarea>
+                            </div>
+                        </div>
+                        <div class="row conclusion">
+                            <div class="col-md-12">
+                                <span>Conclusion: </span>
+                                <textarea name="txtConclusion" rows="5" cols="20" id="txtConclusion"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <input type="hidden" name="hidObjectID" id="hidObjectID" value="0">
+                        <input type="hidden" name="hidNodeType" id="hidNodeType" value="Premise">
+                        <input type="submit" name="btnSubmitAdd" value="Add" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnSubmitAdd&quot;, &quot;&quot;, true, &quot;AddObject&quot;, &quot;&quot;, false, false))" id="btnSubmitAdd" class="btn btn-primary btn-sm">
+                        <input type="button" value="OK" id="ok_btn"/>
+                    </div>
+
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal ModalDetails -->
+
+        
+    </form>
+</body>
+
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/d3.v3.min.js"></script>
+<script src="js/demo-bundle.js"></script>
+
+<script src="axd/WebResource.axd" type="text/javascript"></script>
+<script src="axd/ScriptResource.axd" type="text/javascript"></script>
+<script src="axd/ScriptResource(1).axd" type="text/javascript"></script>
+<script src="axd/ScriptResource(2).axd" type="text/javascript"></script>
+
+<script src="js/data.js"></script>
+<script src="js/marked.js"></script>
+<script src="js/setup.js"></script>
+<script src="js/script.js"></script>
+
+<script aria-hidden="true" type="application/x-lastpass" id="hiddenlpsubmitdiv" style="display: none;"></script>
+</html>

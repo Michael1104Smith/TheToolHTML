@@ -1,0 +1,51 @@
+.popup {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    width: auto;
+    border: 1px #ccc solid;
+    border-radius: 6px;
+    box-shadow: #333 2px 2px 4px;
+    padding: 8px;
+}
+.popup input[type="button"] {
+    width: 60px;
+}
+.popup h2 {
+    margin: 0 0 1rem 0;
+}
+.modal {
+    text-align: left;
+}
+.modal .modal-body span {
+    vertical-align: top;
+    float: left;
+}
+.modal-header,
+.modal-body,
+.modal-footer {
+    padding: 10px;
+}
+.modal input[type="text"],
+.modal textarea {
+    float: right;
+    width: 300px;
+}
+.modal .error {
+    position: relative;
+    top: 5px;
+    left: 100px;
+    color: red;
+}
+.modal .node .nodetext {
+    margin: 1px 0;
+}
+.modalDetails .row {
+    margin-top: 20px;
+}
+@media (min-width: 768px) {
+    .modal-dialog {
+        width: 400px;
+    }
+}
